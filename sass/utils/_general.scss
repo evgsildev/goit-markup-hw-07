@@ -1,0 +1,22 @@
+body {
+    font-family: $font-main;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    color: $color-main;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    @extend %transition-style;
+
+}
+
+.icon {
+    transition-property: fill;
+    @extend %transition-style;
+}
