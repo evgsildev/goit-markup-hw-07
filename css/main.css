@@ -723,10 +723,10 @@ ul {
   border: 1px solid #2196f3;
 }
 
-.form__checkfield {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+.form__checklabel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -734,29 +734,26 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 30px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  cursor: pointer;
 }
 
 .form__check {
   width: 16px;
   height: 15px;
   margin-right: 8px;
-  background-image: url(./../images/unchecked.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  border: 2px solid #212121;
+  border-radius: 2px;
 }
 
 .form__checkbox:checked + .form__check {
   background-image: url(./../images/checked.svg);
   background-color: #2196f3;
-  border-radius: 2px;
-}
-
-.form__checklabel {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-color: #2196f3;
 }
 
 .form__link {

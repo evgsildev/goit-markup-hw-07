@@ -88,11 +88,16 @@
 }
 
 
-.form__checkfield {
-    display: inline-flex;
+.form__checklabel {
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    cursor: pointer;
 }
 
 .form__check {
@@ -100,26 +105,21 @@
     height: 15px;
     margin-right: 8px;
 
-    background-image: url(./../images/unchecked.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    border: 2px solid $color-dark;
+    border-radius: 2px;
 
     .form__checkbox:checked + & {
         background-image: url(./../images/checked.svg);
         background-color: $background-accent;
-        border-radius: 2px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+        border-color: $background-accent;
     }
 
 }
 
-.form__checklabel {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-
-    cursor: pointer;
-}
 
 .form__link {
     color: $color-accent;
