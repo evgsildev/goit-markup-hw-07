@@ -740,14 +740,14 @@ ul {
   width: 16px;
   height: 15px;
   margin-right: 8px;
-  background-image: url(../../images/unchecked.svg);
+  background-image: url(./../images/unchecked.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
 .form__checkbox:checked + .form__check {
-  background-image: url(../../images/checked.svg);
+  background-image: url(./../images/checked.svg);
   background-color: #2196f3;
   border-radius: 2px;
 }
