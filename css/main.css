@@ -5,6 +5,15 @@ body {
   color: #757575;
 }
 
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .list {
   list-style: none;
 }
@@ -17,15 +26,6 @@ body {
 .icon {
   -webkit-transition-property: fill;
   transition-property: fill;
-}
-
-h1,
-h2,
-h3,
-p,
-ul {
-  margin: 0;
-  padding: 0;
 }
 
 .visually-hidden {
@@ -118,6 +118,7 @@ ul {
 
 .navigation__link--current {
   position: relative;
+  color: #2196f3;
 }
 
 .navigation__link--current::after {

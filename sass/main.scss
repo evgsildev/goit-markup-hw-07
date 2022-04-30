@@ -1,6 +1,8 @@
-@import 'utils/variables';
+@import 'base/variables';
+@import 'base/body';
+@import 'base/reset';
+
 @import 'utils/general';
-@import 'utils/reset';
 @import 'utils/visually-hidden';
 @import 'utils/section';
 @import 'utils/container';
